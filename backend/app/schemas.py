@@ -10,7 +10,7 @@ class OperatorBase(BaseModel):
     real_name: str = Field(min_length=1, description="The operator's real name")
     faction: str = Field(min_length=1, description="The faction the operator is a part of (what group they belong to)")
     nationality : str = Field (min_length=1, description="The nation the operator is from")
-    language : str = Field (min_length=1, description="The language the operator speaks")
+    language : str = Field (min_length=1, description="The language the operator primarily speaks")
     is_available: bool = Field (description = "Whether the operator can be bought from a bundle or not")
     image_of_operator: str = Field (description = "The picture of the operator (Got it from MW 2026 page)")
 
