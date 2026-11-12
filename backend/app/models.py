@@ -12,3 +12,4 @@ class Operator(Base): #establishes the table that SQLAlchemy can call from
     nationality = Column(String)
     language = Column(String)
     is_available = Column (Boolean) # This means if they are able to be bought from bundles, instead of from compaigns or missions
+    image_of_operator = Column (String)
