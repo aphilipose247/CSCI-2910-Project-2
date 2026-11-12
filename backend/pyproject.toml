@@ -1,7 +1,7 @@
 [project]
 name = "art-api"
 version = "0.1.0"
-description = "A REST API for famous works of art."
+description = "A REST API for famous MW 4 Operators (2026)."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
