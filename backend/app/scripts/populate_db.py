@@ -15,7 +15,7 @@ operators_data = [
         "nationality": "United Kingdom",
         "language": "English",
         "is_available": True,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-price/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-price/bioImage.webp?v=1792430497236",
     },  
     {
         "operator_name": "Ghost",
@@ -24,7 +24,7 @@ operators_data = [
         "nationality": "United Kingdom",
         "language": "English",
         "is_available": True,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-ghost/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-ghost/bioImage.webp?v=1792430497236",
     },
     {
         "operator_name": "Blix",
@@ -33,7 +33,7 @@ operators_data = [
         "nationality": "South Korea",
         "language": "Korean",
         "is_available": True,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-blix/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-blix/bioImage.webp?v=1792430497236",
     },
     {
         "operator_name": "Hector",
@@ -42,7 +42,7 @@ operators_data = [
         "nationality": "United States",
         "language": "English",
         "is_available": False,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-hector/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-hector/bioImage.webp?v=1792430497236",
     },
     {
         "operator_name": "Valen",
@@ -51,7 +51,7 @@ operators_data = [
         "nationality": "Mexico",
         "language": "Spanish",
         "is_available": False,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-yara/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-yara/bioImage.webp?v=1792430497236",
     },
     {
         "operator_name": "Kal",
@@ -60,7 +60,7 @@ operators_data = [
         "nationality": "South Korea",
         "language": "Korean",
         "is_available": False,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-kal/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-kal/bioImage.webp?v=1792430497236",
     },
     {
         "operator_name": "Luca",
@@ -69,7 +69,7 @@ operators_data = [
         "nationality": "France",
         "language": "French",
         "is_available": False,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-luca/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-luca/bioImage.webp?v=1792430497236",
     },
     {
         "operator_name": "Ohji",
@@ -78,7 +78,7 @@ operators_data = [
         "nationality": "Japan",
         "language": "Japanese",
         "is_available": False,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-ohji/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-ohji/bioImage.webp?v=1792430497236",
     },
     {
         "operator_name": "Dallas",
@@ -87,7 +87,7 @@ operators_data = [
         "nationality": "United States",
         "language": "English",
         "is_available": True,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-dallas/bioImage.webp?v=1792430497236"
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-dallas/bioImage.webp?v=1792430497236",
     },
     {
         "operator_name": "Dunn",
@@ -96,8 +96,8 @@ operators_data = [
         "nationality": "United States",
         "language": "English",
         "is_available": True,
-        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-dunn/bioImage.webp?v=1792430497236"
-    }
+        "image_of_operator" : "https://api.mw4.gg/api/v2/media/v2/operator/op-dunn/bioImage.webp?v=1792430497236",
+    },
 ]
 
 
