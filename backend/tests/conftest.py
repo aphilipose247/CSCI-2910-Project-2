@@ -9,6 +9,10 @@ from app.main import app
 from app.models import Operator
 from app.scripts.populate_db import operators_data
 
+# This file contains the fixtures needed for the tests
+# Fixtures are used to prepare something, while a test checks something
+# A fixture helps set up what a test needs
+
 # A throwaway database that lives in memory (RAM) and disappears when the tests finish.
 # Creating another database to ensure we don't affect the real db (in this case, operators.db)
 

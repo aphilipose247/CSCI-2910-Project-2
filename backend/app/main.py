@@ -7,6 +7,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.routers import operators
 from app.scripts.populate_db import populate
 
+# to start API, use this code: python -m uvicorn app.main:app --reload 
+# Cntrl C to stop running it
 # Uvicorn is the server that our API works on, and FastAPI talks to your database, checks passwords, processes calculations, and sends raw data (usually in JSON format) back to the frontend
 @asynccontextmanager
 async def lifespan(app: FastAPI):
