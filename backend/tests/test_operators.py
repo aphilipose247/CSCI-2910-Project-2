@@ -73,7 +73,7 @@ def test_update_operator(client, created_operator, updated_operator):
 # In this test above, first we create the variable expected which holds Ju Kwon's data, but with Coffey's id
 # A dict will get created with the new info
 # in the Act section, we update Coffey to have Ju Kwon's data
-# in Assert, the test checks that equals the variable 'expected' to ensure that the API has been updated
+# in Assert, the test checks that what we got equals the variable 'expected' to ensure that the API has been updated
 # Another precaution is taken where the variable 'saved' gets the updated data and ensures that it is still the same as the 'expected' variable
 
 # -------------------------------------------------------------------------------------------------
