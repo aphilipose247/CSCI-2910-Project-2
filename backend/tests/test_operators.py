@@ -1,5 +1,6 @@
 # This file contains all of the tests for my CRRUD operations
 
+# to run the tests, use the code : python -m pytest -v
 
 # CREATE Operation Test
 # I am going to use the same format that was done in Lab 06
