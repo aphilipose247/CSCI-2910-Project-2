@@ -33,7 +33,7 @@ def get_test_db(): #another db is called test_db
 
 
 @pytest.fixture(scope="session") #	Create one client (fake browser) and share it across all the tests, instead of building a new one for every test
-def client(): # this is needed to help send HTTPS requests to your app without having to start a server, which allows the test to be down quickly 
+def client(): # this is needed to help send HTTPS requests (like post, get, put, etc.) to your app without having to start a server, which allows the test to be down quickly 
     """A fake browser that sends requests straight to the app, using the test database."""
     app.dependency_overrides[get_db] = get_test_db #Remember Depends(get_db) from Lab 5? This swaps it out, so every endpoint gets the test database instead of the real one
     with TestClient(app) as c:
