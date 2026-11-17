@@ -83,7 +83,7 @@ def updated_operator(): #returns a dict that you can send as a PUT body. This he
 }
 
 @pytest.fixture #This saves you from writing "create an operator first" at the top of every update and delete test.
-def created_artwork(client, sample_artwork):
-    response = client.post("/artworks/", json = sample_artwork)
+def created_operator(client, sample_operator):
+    response = client.post("/operators/", json = sample_operator)
     assert response.status_code == 201
     return response.json()
